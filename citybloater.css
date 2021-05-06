@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#map {
+    background-color: #ddd;
+    height: 100%;
+    width: 100%;
+}
+
+.center-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#input {
+    width: 250px;
+    margin: 10px;
+    top: 0px;
+    left: 50px;
+    position: fixed;
+    height: 30px;
+    padding: 5px;
+    background: #fff;
+    border: 2px solid #C1BBB4;
+    z-index: 1000;
+    border-radius: 5px;
+} 
+
+#query {
+    width: 150px;
+    margin-right: 10px;
+}
+#search {
+    width: 80px;
+}
